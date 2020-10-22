@@ -1,0 +1,38 @@
+#app{
+  width: 300px;
+  margin: 0px auto;
+  font-family: arial, sans-serif;
+}
+
+h3 {
+  font-size: 1.1em;
+  margin-bottom: 0.3em;
+  padding: 0.3em;
+  background-color: #4ac550;
+  text-align: center;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td{
+  font-size: 1em;
+  padding: 0.5em;
+}
+
+table td:last-child{
+  text-align: right;
+}
+
+table td tr:nth-child(even){
+  background-color: #e8e8e8;
+}
+
+table td:hover{
+  background-color: #4ac550;
+  color: white;
+  cursor: pointer;
+}
